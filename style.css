@@ -1,0 +1,48 @@
+
+table {
+    
+    border-style: solid;
+    width: 100%;
+   
+}
+#warriors th{
+  background-color: white;
+  
+}
+#warriors tr:nth-child(even) {
+   background-color: red;
+  
+  }
+#warriors tr:nth-child(odd) {
+   background-color: yellow;
+  
+  }
+
+th, td {
+    border-style: solid;
+    text-align: left;
+     padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+#outer-content{
+   background-color:pink;
+   border-style:solid;
+   border-color:pink;
+   width: 75%;
+   margin-top: 20px;
+  
+  
+}
+
+#inner-content{
+   background-color:blue;
+   border-style:solid;
+   border-color:blue;
+   width: 75%;
+   color:white;
+   text-align:center;
+    
+}
+
